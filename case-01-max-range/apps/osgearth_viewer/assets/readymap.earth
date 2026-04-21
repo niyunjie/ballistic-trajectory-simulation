@@ -1,0 +1,40 @@
+<map name="ReadyMap.org">
+
+    <!-- 本地缓存（关键） -->
+    <cache type="filesystem">
+        <path>./cache</path>
+    </cache>
+
+    <TMSImage name="ReadyMap 15m Imagery">
+        <url>https://readymap.org/readymap/tiles/1.0.0/7/</url>
+    </TMSImage>
+
+    <TMSElevation name="ReadyMap 90m Elevation">
+        <url>https://readymap.org/readymap/tiles/1.0.0/116/</url>
+        <vdatum>egm96</vdatum>
+    </TMSElevation>
+
+    <!-- 经纬网（网格线） -->
+    <GeodeticGraticule name="LatLon Grid">
+        <!-- 线颜色（绿色+透明度） -->
+        <color>#ffffff66</color>   
+
+        <!-- 标签颜色 -->
+        <label_color>#ffffffff</label_color>
+
+        <!-- 屏幕内大致网格数量 -->
+        <grid_lines>10</grid_lines>
+
+        <!-- 不同缩放级别下的网格间距（单位：度） -->
+        <resolutions>
+            10 5 2 1 0.5 0.25 0.1 0.05 0.01
+        </resolutions>
+
+        <!-- 显示控制 -->
+        <grid_lines_visible>true</grid_lines_visible>
+        <grid_labels_visible>true</grid_labels_visible>
+        <edge_labels_visible>true</edge_labels_visible>
+    </GeodeticGraticule>
+
+    <!-- viewpoints.xml omitted -->
+</map>

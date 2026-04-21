@@ -1,0 +1,58 @@
+# Large local dependency cache
+/downloads/
+/tmp/
+
+# Local archives
+/*.zip
+/*.txt
+
+# CMake and Visual Studio generated files
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+**/*.sln
+**/*.slnx
+**/*.vcxproj
+**/*.vcxproj.filters
+**/*.vcxproj.user
+**/*.vcproj
+**/*.vcproj.filters
+**/*.dir/
+**/*.recipe
+**/*.tlog
+**/*.lastbuildstate
+**/*.obj
+**/*.o
+**/*.a
+**/*.lib
+**/*.exp
+**/*.ilk
+**/*.idb
+**/*.pdb
+**/*.dll
+**/*.exe
+
+# Runtime outputs and exported analysis results
+**/data/logs/
+**/data/solver_output/
+**/apps/osgearth_viewer/data/exports/
+
+# Local tool settings
+**/.vs/
+**/.vscode/
+**/imgui.ini
+
+# MATLAB and Python caches
+**/scripts/matlab/MathWorks/
+**/__pycache__/
+**/*.pyc
+**/docs/*.docx
+**/reference/*.pdf
+**/大纲.txt
+docs/images/page*.png
+
+# Common OS junk files
+.DS_Store
+Thumbs.db

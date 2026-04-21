@@ -1,0 +1,5 @@
+set(Fontconfig_INCLUDE_DIR "C:/dev/vcpkg/installed/x64-windows/include")
+set(Fontconfig_LIBRARY "C:/dev/vcpkg/installed/x64-windows/lib/fontconfig.lib")
+set(Fontconfig_LIBRARIES "${Fontconfig_LIBRARY}")
+set(Fontconfig_INCLUDE_DIRS "${Fontconfig_INCLUDE_DIR}")
+set(Fontconfig_FOUND TRUE)
